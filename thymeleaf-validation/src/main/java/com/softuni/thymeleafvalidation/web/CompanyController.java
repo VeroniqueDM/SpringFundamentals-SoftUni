@@ -14,7 +14,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/companies")
-public class CompanyController {
+public class    CompanyController {
     private final CompanyRepository companyRepository;
 
     @Autowired

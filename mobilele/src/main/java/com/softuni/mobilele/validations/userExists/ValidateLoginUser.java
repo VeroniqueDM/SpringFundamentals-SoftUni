@@ -1,6 +1,5 @@
 package com.softuni.mobilele.validations.userExists;
 
-import com.softuni.mobilele.validations.matchingPasswords.PasswordMather;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

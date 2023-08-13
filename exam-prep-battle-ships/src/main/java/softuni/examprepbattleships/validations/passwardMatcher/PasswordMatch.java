@@ -1,4 +1,4 @@
-package com.softuni.mobilele.validations.matchingPasswords;
+package softuni.examprepbattleships.validations.passwardMatcher;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
@@ -13,11 +13,7 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = PasswordMatcher.class)
 public @interface PasswordMatch {
 
-    String password();
-
-    String confirmPassword();
-
-    String message() default "Passwords miss match";
+    String message() default "Password miss match";
 
     Class<?>[] groups() default {};
 

@@ -1,0 +1,1 @@
+// IMPORTANT: The app needs to have at least two registered users with ships to work properly.
